@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HCI ASSIGNMENT-02</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Job Details</h2>
+      <form action="#">
+        <table>
+          <!-- job title -->
+          <tr>
+            <td class="form_head">Job Title</td>
+            <td>
+              <input
+                type="text"
+                placeholder="Ex. Retailer, ..."
+                name="Job Title"
+                id="job_title"
+              />
+            </td>
+          </tr>
+          <!-- description -->
+          <tr>
+            <td class="form_head col_span" rowspan="2">Description</td>
+            <td>
+              <textarea
+                placeholder="Brief Description"
+                name="Description"
+                id="description"
+                maxlength="150"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td class="warn">(Maximum 150 Characters)</td>
+          </tr>
+          <!-- company name -->
+          <tr>
+            <td class="form_head">Company Name</td>
+            <td>
+              <input
+                type="text"
+                placeholder="Ex. Apple, Nike, ..."
+                name="Company Name"
+                id="company_name"
+              />
+            </td>
+          </tr>
+          <!-- work status -->
+          <tr>
+            <td class="form_head col_span" rowspan="3">Work Status</td>
+            <td>
+              <input type="radio" name="Work Status" id="full_time" />
+              <label for="full_time">Full Time</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="radio" name="Work Status" id="part_time" />
+              <label for="part_time">Part Time</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="radio" name="Work Status" id="others" />
+              <label for="others">Others</label>
+            </td>
+          </tr>
+          <!-- start date -->
+          <tr>
+            <td class="form_head">Start Date</td>
+            <td>
+              <input type="date" name="Start Date" id="start_date" />
+            </td>
+          </tr>
+          <!-- end date -->
+          <tr>
+            <td class="form_head">End Date</td>
+            <td>
+              <input type="date" name="End Date" id="end_date" />
+            </td>
+          </tr>
+          <!-- agree -->
+          <tr>
+            <td class="agree" colspan="2">
+              <input type="checkbox" name="Term & Service" id="term_service" />
+              <span>I agree to the Privacy Policy and Terms of Service</span>
+            </td>
+          </tr>
+        </table>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

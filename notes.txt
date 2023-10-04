@@ -1,0 +1,8 @@
+Job Title:
+Col span -> Description: (Maximum 150 Characters)
+Company Name:
+Work Status: Full-Time, Part-Time, Others
+Start Date:
+End Date:
+Row span -> Agree to Term & Service
+Submit
