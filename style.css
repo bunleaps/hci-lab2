@@ -114,3 +114,13 @@ button {
     text-align: center;
     padding: 20px 0;
 }
+
+@media screen and (max-width: 516px) {
+    div.container {
+        width: 90%;
+    }
+
+    table {
+        width: fit-content;
+    }
+}
